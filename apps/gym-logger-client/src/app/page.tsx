@@ -1,10 +1,12 @@
-import Image from 'next/image';
 import styles from './page.module.scss';
+import WorkoutSplit from './components/WorkoutSplit/';
 
 export default function Home() {
   return (
     <div className={styles.page}>
-      <main className={styles.main}>Gym Logger</main>
+      <main className={styles.main}>
+        <WorkoutSplit />
+      </main>
     </div>
   );
 }
