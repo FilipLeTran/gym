@@ -1,5 +1,11 @@
+import styles from './styles.module.scss';
 const WorkoutSplit: React.FC = () => {
-  return <div>Gym Logger</div>;
+  return (
+    <section className={styles.workoutSplit}>
+      <span>Temporary workout split name</span>
+      <span>Active</span>
+    </section>
+  );
 };
 
 export default WorkoutSplit;

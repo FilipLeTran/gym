@@ -1,0 +1,7 @@
+@import 'styles/variables';
+
+.workoutSplit {
+  display: flex;
+  flex-direction: column;
+  border: $border-thin solid grey;
+}
